@@ -1,0 +1,85 @@
+<html>
+<head>
+	<title> hello RNSIT      </title>
+	<script>
+	function greetFuntion()
+	{
+		var="";
+		var time=new Date().gethours();
+		if (time<17)
+		{
+			x="good day";
+		}
+		else
+			{
+				x="good evening";
+		}
+		alert(x);
+		//document.getElementById("demo");
+	}
+
+</script>
+
+</head>
+<body  bgcolor="brown">
+This is my first HTML document.
+This is the body.
+<div >
+	&nbsp;&nbsp;This is division.
+</div>
+<table border="5">
+	<tr>
+		<td>S.NO</td>
+		<td>Name</td>
+
+	</tr>
+	<tr bgcolor="cyan">
+		<td>1</td>
+		<td>ashvi</td>
+
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>rakshi</td>
+
+	</tr>
+
+<!--
+comments
+-->
+
+</table>
+<img src="http://cdn.wonderfulengineering.com/wp-content/uploads/2013/11/Free-Google-Wallpapers.jpg" >
+</img>
+
+<a href="http://www.google.com" target="_blank"> Go to google </a>
+<form method="post">
+	<table>
+		<tr>
+	<td>user name:</td>
+	<td><input type="email" id="txt_usr"></td><!--
+	input type can be email and date in html5 -->
+</tr>
+<tr>
+	<td>password:</td>
+	<td><input type="password" id="txt_pswrd"></td>
+</tr>
+<tr>
+<td>Gender:</td>
+<td><input list="gender">
+<datalist id="gender">
+	<option value="male">
+		<option value="female">
+		</datalist></td>
+	</tr>
+<tr>
+	
+	<td><input type="button" value="submit" id="btn_submit"></td><!-- we can define this function later-->
+	<td><input type="submit"></td><!-- in built submit function -->
+</tr>
+<tr>
+<td></td>
+<td><input type="button" value="try it" id="try_it" onClick="greetFunction()"></td></tr>
+</form>
+</body>
+</html>
